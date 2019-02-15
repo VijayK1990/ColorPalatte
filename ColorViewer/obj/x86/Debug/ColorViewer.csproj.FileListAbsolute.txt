@@ -1,0 +1,17 @@
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\obj\x86\Debug\ColorViewer.Views.FrmColorPalette.resources
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\obj\x86\Debug\ColorViewer.Properties.Resources.resources
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\obj\x86\Debug\ColorViewer.Views.FrmFromImage.resources
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\obj\x86\Debug\ColorViewer.Views.FrmViewColorPattern.resources
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\obj\x86\Debug\ColorViewer.Views.FrmSplashScreen.resources
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\obj\x86\Debug\ColorViewer.csproj.GenerateResource.cache
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\obj\x86\Debug\ColorViewer.csproj.CoreCompileInputs.cache
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\bin\x86\Debug\ColorViewer.exe.config
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\bin\x86\Debug\ColorViewer.exe
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\bin\x86\Debug\ColorViewer.pdb
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\bin\x86\Debug\System.Data.SQLite.pdb
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\bin\x86\Debug\System.Data.SQLite.dll.config
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\obj\x86\Debug\ColorViewer.csproj.CopyComplete
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\obj\x86\Debug\ColorViewer.exe
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\obj\x86\Debug\ColorViewer.pdb
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\obj\x86\Debug\ColorViewer.csprojAssemblyReference.cache
+D:\PERSONAL\VIJAYENDRA DATA\SOURCE CODES\C#\ColorViewer\ColorViewer\obj\x86\Debug\ColorViewer.Views.FrmAbout.resources
