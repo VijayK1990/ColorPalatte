@@ -50,13 +50,16 @@ namespace ColorViewer.Views
 
         private void Txt_HEXColorCode_Leave(object sender, EventArgs e)
         {
-            if (!ValidationController.ValidateColorCode(Txt_HEXColorCode.Text).Success)
+            if (!Txt_HEXColorCode.Text.Equals(string.Empty))
             {
-                MessageBox.Show("Invalid Color Code. If you have included '#' in the Color Code, then please remove '#' and then try again.", "Invalid Color Code", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            else
-            {
-                ConvertHexToColor(Txt_HEXColorCode.Text);
+                if (!ValidationController.ValidateColorCode(Txt_HEXColorCode.Text).Success)
+                {
+                    MessageBox.Show("Invalid Color Code. If you have included '#' in the Color Code, then please remove '#' and then try again.", "Invalid Color Code", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    ConvertHexToColor(Txt_HEXColorCode.Text);
+                }
             }
         }
 
