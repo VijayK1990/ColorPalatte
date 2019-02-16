@@ -10,6 +10,7 @@ namespace ColorViewer.Views
     public partial class FrmViewColorPattern : Form
     {
         private static int RowIndex = 0;
+        private string ER = string.Empty;
         private DataTable DT = null;
         private ColorPatternDetails CPD = null;
 
@@ -26,7 +27,7 @@ namespace ColorViewer.Views
         public void SetDataGridView()
         {
             DT = new DataTable();
-            DT = SQLiteActivityController.GetTableDetails(out string ER);
+            DT = SQLiteActivityController.GetTableDetails(out ER);
 
             if (DT != null && DT.Rows.Count != 0)
             {
@@ -70,7 +71,7 @@ namespace ColorViewer.Views
                 PatternID = Convert.ToInt32(SelectedRow.Cells[0].Value.ToString())
             };
 
-            Status = SQLiteActivityController.DeleteFromSQLiteDb(CPD,out string ER);
+            Status = SQLiteActivityController.DeleteFromSQLiteDb(CPD, out ER);
 
             if (Status)
             {

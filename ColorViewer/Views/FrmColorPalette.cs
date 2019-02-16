@@ -11,6 +11,7 @@ namespace ColorViewer.Views
         private CMYKDetails ColorCode = null;
         private ColorPatternDetails CPD = null;
         private bool IsSecondaryWindow = false;
+        private string ER = string.Empty;
         private static int A_P = 0;
         private static int R_P = 0;
         private static int G_P = 0;
@@ -213,7 +214,7 @@ namespace ColorViewer.Views
                     K = Convert.ToSingle(Txt_Black_K.Text)
                 };
 
-                status = SQLiteActivityController.WriteToSQLiteDb(CPD, out string ER);
+                status = SQLiteActivityController.WriteToSQLiteDb(CPD, out ER);
 
                 if (status)
                 {
