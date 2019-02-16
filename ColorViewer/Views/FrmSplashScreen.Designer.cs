@@ -40,11 +40,11 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(15, 35);
+            this.label1.Font = new System.Drawing.Font("Georgia", 38.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Firebrick;
+            this.label1.Location = new System.Drawing.Point(4, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(500, 61);
+            this.label1.Size = new System.Drawing.Size(517, 61);
             this.label1.TabIndex = 0;
             this.label1.Text = "COLOR PALATTE";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -53,7 +53,8 @@
             // 
             this.LblVersion.AutoSize = true;
             this.LblVersion.BackColor = System.Drawing.Color.Transparent;
-            this.LblVersion.Location = new System.Drawing.Point(12, 223);
+            this.LblVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblVersion.Location = new System.Drawing.Point(11, 230);
             this.LblVersion.Name = "LblVersion";
             this.LblVersion.Size = new System.Drawing.Size(25, 13);
             this.LblVersion.TabIndex = 1;
@@ -61,7 +62,7 @@
             // 
             // BtnStart
             // 
-            this.BtnStart.Location = new System.Drawing.Point(440, 218);
+            this.BtnStart.Location = new System.Drawing.Point(446, 217);
             this.BtnStart.Name = "BtnStart";
             this.BtnStart.Size = new System.Drawing.Size(75, 23);
             this.BtnStart.TabIndex = 2;
@@ -71,7 +72,7 @@
             // 
             // BtnClose
             // 
-            this.BtnClose.Location = new System.Drawing.Point(359, 218);
+            this.BtnClose.Location = new System.Drawing.Point(365, 217);
             this.BtnClose.Name = "BtnClose";
             this.BtnClose.Size = new System.Drawing.Size(75, 23);
             this.BtnClose.TabIndex = 3;
@@ -84,7 +85,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(372, 96);
+            this.label2.Location = new System.Drawing.Point(369, 70);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(152, 15);
             this.label2.TabIndex = 4;
@@ -92,7 +93,7 @@
             // 
             // BtnAbout
             // 
-            this.BtnAbout.Location = new System.Drawing.Point(278, 219);
+            this.BtnAbout.Location = new System.Drawing.Point(284, 218);
             this.BtnAbout.Name = "BtnAbout";
             this.BtnAbout.Size = new System.Drawing.Size(75, 22);
             this.BtnAbout.TabIndex = 5;
@@ -105,7 +106,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(527, 245);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(527, 252);
             this.ControlBox = false;
             this.Controls.Add(this.BtnAbout);
             this.Controls.Add(this.label2);
