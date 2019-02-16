@@ -17,7 +17,7 @@ namespace ColorViewer.Views
 
             if (!ValidationController.ValidateSQLiteDbExist())
             {
-                SQLiteActivityController.InitializeSQLiteDB();
+                SQLiteActivityController.InitializeSQLiteDB(out string ER);
             }
         }
 

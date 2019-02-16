@@ -26,7 +26,7 @@ namespace ColorViewer.Views
         public void SetDataGridView()
         {
             DT = new DataTable();
-            DT = SQLiteActivityController.GetTableDetails();
+            DT = SQLiteActivityController.GetTableDetails(out string ER);
 
             if (DT != null && DT.Rows.Count != 0)
             {
@@ -70,7 +70,7 @@ namespace ColorViewer.Views
                 PatternID = Convert.ToInt32(SelectedRow.Cells[0].Value.ToString())
             };
 
-            Status = SQLiteActivityController.DeleteFromSQLiteDb(CPD);
+            Status = SQLiteActivityController.DeleteFromSQLiteDb(CPD,out string ER);
 
             if (Status)
             {

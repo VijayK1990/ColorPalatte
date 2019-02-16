@@ -213,7 +213,7 @@ namespace ColorViewer.Views
                     K = Convert.ToSingle(Txt_Black_K.Text)
                 };
 
-                status = SQLiteActivityController.WriteToSQLiteDb(CPD);
+                status = SQLiteActivityController.WriteToSQLiteDb(CPD, out string ER);
 
                 if (status)
                 {
